@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e9e9e9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #181818;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.preview-area {
+    position: relative;
+}
+
+.tshirt-base {
+    width: 300px;
+}
+
+.design-area {
+    position: absolute;
+    top: 85px;
+    left: 100px;
+    width: 120px;
+    height: 160px;
+    text-align: center;
+}
+
+.panel {
+    background: white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.panel input {
+    width: 100%;
+    margin: 10px 0 20px 0;
+}
+
+#downloadBtn {
+    width: 100%;
+    padding: 12px;
+    background: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

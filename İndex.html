@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CustomTee Beta v2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>CustomTee Beta v2</h1>
+    <p>Kendi tişörtünü tasarla 🎨</p>
+</header>
+
+<div class="container">
+    <!-- Tişört Önizleme -->
+    <div class="preview-area">
+        <img src="assets/tshirt.png" class="tshirt-base">
+        <div id="designArea" class="design-area"></div>
+    </div>
+
+    <!-- Özelleştirme Paneli -->
+    <div class="panel">
+        <h2>Tasarım Paneli</h2>
+
+        <label>Yazı:</label>
+        <input type="text" id="textInput" placeholder="Tişörte yazı ekle">
+
+        <label>Renk:</label>
+        <input type="color" id="textColor" value="#000000">
+
+        <label>Görsel Yükle:</label>
+        <input type="file" id="imageUpload" accept="image/*">
+
+        <button id="downloadBtn">Tişörtü İndir</button>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
